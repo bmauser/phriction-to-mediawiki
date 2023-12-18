@@ -1,0 +1,10 @@
+<?php
+
+// Database connection parameters for connecting to the Phriction database
+
+$config = array(
+    'db_host' => 'databasehost',
+    'db_user' => 'username',
+    'db_pass' => '',
+    'db_name' => 'phabricator_phriction'
+);

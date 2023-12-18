@@ -1,0 +1,93 @@
+Headings:
+= h2
+== h3
+=== h4
+==== h5
+===== h6
+
+Headings with closing tags:
+= h2 =
+== h3 ==
+=== h4 ===
+==== h5 ====
+===== h6 =====
+
+Basic formating:
+**bold text**
+//italic text//
+`monospaced text`
+## monospaced text ##
+~~deleted text~~
+__underlined text__
+!!highlighted text!!
+
+---
+Code blocks:
+```
+def quick_sort(arr):
+	less = []
+	pivot_list = []
+	more = []
+	if len(arr) <= 1:
+		return arr
+	else:
+		pass
+```
+
+```
+= leave this
+~~leave this~~
+__leave this__
+!!leave this!!
+```
+
+---
+Lists:
+- milk
+- eggs
+- bread
+
+* duck
+* duck
+* goose
+
+# duck
+# duck
+# goose
+
+---
+Links:
+[[http://www.some-documents.com/ | Exciting documents]]
+[[ docs/docker/ ]]
+[[ docs/docker/ | Docker stuff]]
+[[ docs/firefox/ | Browser stuff]]
+
+---
+Literal:
+%%%
+[[ projects/shop/ ]]
+%%%
+
+---
+Tables:
+
+| Fruit  | Color  | Price   | Peel
+| -----  | -----  | -----   | -----
+| Apple  | red    | `$0.93` | no
+| Banana | yellow | `$0.19` | **YES**
+
+|Fruit|Color|Price   | Peel?
+|-----| -----  | -----   | -----
+|Apple  | red    | `$0.93` | no
+|Banana | yellow | `$0.19` | **YES**
+
+|Fruit|Color|Price   | Peel?
+|Apple  | red    | `$0.93` | no
+|Banana | yellow | `$0.19` | **YES**
+
+| Fruit
+| -----
+| Apple
+| Banana
+
+| Fruit
