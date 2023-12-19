@@ -83,3 +83,10 @@ and highlighted text uses the [Highlight](https://www.mediawiki.org/wiki/Templat
 
 You can edit `config-markup.php` directly or create a `config-markup.local.php` file with values 
 that will override those in `config-markup.php`.
+
+
+
+## Disclaimer
+
+This script was written for a one-time import task that I had, so it hasn't been
+thoroughly tested. It worked for the specific case I had.
