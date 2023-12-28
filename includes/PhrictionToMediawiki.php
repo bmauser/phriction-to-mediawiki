@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Class with methods for conversion from markdown to wikitext.
+ * Class with methods for conversion from remarkup to wikitext.
  */
 class PhrictionToMediawiki{
 
